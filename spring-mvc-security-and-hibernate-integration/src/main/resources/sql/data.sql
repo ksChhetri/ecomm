@@ -1,0 +1,12 @@
+INSERT INTO SPRING_USER_24042017(username,password,enabled) 
+VALUES('info@sunglowsys.com','12345',1);
+
+INSERT INTO SPRING_USER_24042017(username,password,enabled) 
+VALUES('support@codingraja.com','123456',1);
+
+INSERT INTO SPRING_USER_ROLE_24042017(role,user_id) 
+VALUE('ROLE_ADMIN',1);
+INSERT INTO SPRING_USER_ROLE_24042017(role,user_id) 
+VALUE('ROLE_USER',1);
+INSERT INTO SPRING_USER_ROLE_24042017(role,user_id) 
+VALUE('ROLE_USER',2);

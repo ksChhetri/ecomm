@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.codingraja.spring</groupId>
+  <artifactId>spring-web-mvc</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>spring-web-mvc</name>
+  <url>http://codingraja.com</url>
+  <dependencies>
+  	<!-- J2EE 7 Dependencies -->
+    <dependency>
+      <groupId>javax</groupId>
+      <artifactId>javaee-api</artifactId>
+      <version>7.0</version>
+    </dependency>
+    
+    <!-- Spring Webmvc Dependencies -->
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-webmvc</artifactId>
+    	<version>4.3.5.RELEASE</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>spring-web-mvc</finalName>
+  </build>
+  <modules>
+    <module>first-spring-web-mvc-application</module>
+    <module>spring-mvc-multiple-request-handling</module>
+    <module>spring-mvc-customer-registration-using-form-tags</module>
+    <module>spring-mvc-resource-mapping</module>
+    <module>spring-mvc-form-validation-using-validator-interface</module>
+    <module>spring-mvc-form-validation-using-jsr-303</module>
+    <module>sunelectronics</module>
+    <module>spring-mvc-and-hibernate-integration</module>
+    <module>spring-mvc-security-integaration</module>
+    <module>spring-mvc-security-with-custom-login-form</module>
+    <module>spring-mvc-security-authentication-with-mysql</module>
+    <module>spring-mvc-security-and-hibernate-integration</module>
+  </modules>
+</project>
